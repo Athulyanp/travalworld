@@ -1,0 +1,150 @@
+*{
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Courgette', cursive;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h6{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   margin-top: -500px;
+
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    
+
+}
+.carousel-caption a{
+    margin-bottom: 100px;
+   
+}
+.card img{
+    height: 200px;
+   
+  
+}
+.card h1
+{
+    font-size: 25px;
+}
+a:hover{
+    background: rgba(255, 238, 0, 0.61);
+    transition: .5s;
+}
+/* section book start */
+.book{
+    background:white;
+    padding: 50px;
+}
+.main-text h1{
+   text-shadow: 0px 1px 1px black;
+    font-weight: 600px;
+}
+
+
+
+/* section book end */
+
+/* section service start */
+.service-item{
+    box-shadow: 0 0 45px black;
+    transition: 0.5s;
+
+}
+.service-item:hover{
+    background: var(--primary);
+}
+.service-item *{
+    transition: 0.5s;
+ 
+
+}
+.service-item:hover *{
+    color: var(--light)!important;
+}
+p:hover{
+    background: green;
+    transition: .5s;
+}
+h5:hover{
+    background: green;
+    transition: .5s;
+}
+
+/* section service end */
+.team-item{
+    box-shadow: 0 0 45px rgba(0,0,0,0.08);
+}
+.team-item img{
+    transition: 0.5s;
+
+}
+.team-item:hover img{
+    transform: scale(1.1);
+}
+.team-item .btn{
+    background: yellowgreen;
+    color: var(--primary);
+    border-bottom: 20px;
+    border-bottom:1px solid var(--primary) ;
+
+}
+.team-item .btn:hover{
+    background: var(--primary);
+    color: #ffffff;
+}
+
+.overflow-hidden {
+    height: 300px;
+} 
+
+.single-box ul li a{
+    text-decoration: none;
+    color: white;
+}
+.copyright a{
+   text-decoration: none;
+}
+.uparrow{
+    margin: 1rem,2rem;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+@media (max-width:976px){
+    .about h1{
+        margin-top: -200px;
+       
+
+    }
+}
+.destinations{
+    margin-top: 200px;
+}
+.about img{
+    height: 400px;
+}
+.about{
+    margin-top: 60px;
+}
+
+    
+
+
+
